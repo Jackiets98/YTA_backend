@@ -33,8 +33,8 @@ class ReportController extends Controller
     
                 // Validate file extension
                 $extension = $file->getClientOriginalExtension();
-                if (!in_array($extension, ['jpeg', 'jpg', 'png', 'pdf', 'mp4'])) {
-                    return Redirect::back()->with('error', 'Invalid file format. Only jpeg, jpg, png, pdf, and mp4 formats are allowed.')->withInput();
+                if (!in_array($extension, ['jpeg', 'jpg', 'png', 'mp4'])) {
+                    return Redirect::back()->with('error', 'Invalid file format. Only jpeg, jpg, png, and mp4 formats are allowed.')->withInput();
                 }
             }
     
