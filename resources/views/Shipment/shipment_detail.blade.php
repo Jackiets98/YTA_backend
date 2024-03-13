@@ -224,7 +224,7 @@
                                                 <label>Driver <span style="color: red;">*</span></label>
                                                 <select class="form-control" name="driver" required>
                                                     @foreach ($drivers as $item)
-                                                    <option value="{{ $item->id }}"  @if($item->id === $shipment->customer) selected @endif>{{ $item->name }}</option>                             
+                                                    <option value="{{ $item->id }}"  @if($item->id === $shipment->driver) selected @endif>{{ $item->name }}</option>                             
                                                     @endforeach
                                                 </select>
                                             </div>
