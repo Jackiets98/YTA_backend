@@ -70,7 +70,7 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <label for="media">Select Media (Multiple) <span class="text-danger">(Format: jpeg, jpg, png, pdf, mp4)</span>:</label>
+                                            <label for="media">Select Media (Multiple) <span class="text-danger">(Format: jpeg, jpg, png, mp4)</span>:</label>
                                             <input type="file" class="form-control" id="media" name="media[]" multiple>
                                         </div>
 
